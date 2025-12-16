@@ -155,3 +155,38 @@ const data={
   }
 }
 export default data;
+
+
+// data/sections.ts
+export const sections = [
+  {
+    id: 'section-1',
+    title: 'AI glasses, now with display',
+    text: 'Interact with information in a new way with the full-color, high-resolution 600x600 pixel visual display, built into the right lens of the glasses.',
+    bg: '/Display_XL.avif'
+  },
+  {
+    id: 'section-2',
+    title: 'Information, in your line of sight',
+    text: 'Messages, navigation, images and more — all visible only to you.',
+    bg: 'https://media.ray-ban.com/2025/MetaDisplay/LP/03_NB/00_NB.jpg?hyperbypass=ok'
+  },
+  {
+    id: 'section-3',
+    title: 'Control without touching',
+    text: 'Meta Neural Band enables intuitive, subtle control through hand gestures.',
+    bg: 'https://media.ray-ban.com/2025/MetaDisplay/LP/02_Capabilities/01_Capabilities.jpg?hyperbypass=ok'
+  },
+  {
+    id: 'section-4',
+    title: 'Designed for real life',
+    text: 'Comfortable, lightweight, and stylish for all-day wear.',
+    bg: '/Uses_XL.avif'
+  },
+  {
+    id: 'section-5',
+    title: 'A new way to experience AI',
+    text: 'Hands-free intelligence that moves with you.',
+    bg: '/Details_XL.avif'
+  }
+]

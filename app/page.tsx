@@ -3,9 +3,10 @@ import { Button } from "@/components/ui/button";
 import { MenuIcon } from "lucide-react";
 import Image from "next/image";
 import Lenis from 'lenis'
+import StackedSections from "@/components/StackedSections";
 const HomePage = () => {
 
-  
+
   return (
   <div className="min-h-screen bg-[linear-gradient(66deg,_white,_#3e5464)]">
   {/* HEADER */}
@@ -56,11 +57,11 @@ const HomePage = () => {
     </section>
 
     {/* SECTION 1 */}
-    <section
-      id="section-1"
+    {/* <section
+      id=""
       className="relative min-h-screen flex items-center bg-[url('/Display_XL.avif')] bg-cover bg-center"
     >
-      {/* overlay for readability */}
+      
       <div className="absolute inset-0 items-center " />
 
        <div className="absolute inset-1 inset-y-3  flex items-center">
@@ -73,7 +74,9 @@ const HomePage = () => {
           </p>
         </div>
       </div>
-    </section>
+    </section> */}
+
+     <StackedSections />
   </main>
 </div>
 
