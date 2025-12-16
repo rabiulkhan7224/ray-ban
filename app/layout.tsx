@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import '@/lib/lenis'
 import { Geist, Geist_Mono , Lato} from "next/font/google";
 import "./globals.css";
 
